@@ -1,0 +1,15 @@
+<div class='loginForm'  style="text-align:center">
+  <img width="300" alt="Asahi Kasei Logo" src="src\logo\akss logo.png">
+  <div class="formDiv">
+    <form method="POST" (ngSubmit)="login(email, password)">
+      Login:<br>
+      <input type="email" placeholder="Email" [(ngModel)]="email" name="email" required>
+      <br>
+      Password:<br>
+      <input type="password" placeholder="Password" [(ngModel)]="password" name="password" required>
+      <br><br>
+      <input class="submitButton" type="submit" value='Login'>
+    </form>
+  </div>
+  <a class='link' href="">Forget password</a>
+</div>

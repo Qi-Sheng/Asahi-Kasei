@@ -1,0 +1,26 @@
+div.loginForm{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+div.formDiv{
+    width: 150px;
+    text-align: left;
+    margin: auto;
+}
+
+input.submitButton {
+    width: 150px;
+}
+
+a:link, a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
